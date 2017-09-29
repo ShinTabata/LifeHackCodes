@@ -1,0 +1,29 @@
+###python用備忘録
+
+###anacondaのアップデート
+conda update anaconda
+
+###jupyterノートブックの開き方
+jupyter notebook
+
+
+###役に立つライブラリ一覧
+
+import pandas as pd
+import numpy as np
+import statsmodels.api as sm
+import matplotlib.pyplot as plt
+import os
+import os.path
+import pickle
+import pprint
+
+###ちょっと特殊系
+from  psgr_find_pattern import *
+from  regression import *
+import psycopg2 
+from sqlalchemy import create_engine
+from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
+from sklearn.linear_model import LogisticRegression
+
