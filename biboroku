@@ -18,6 +18,7 @@ import os
 import os.path
 import pickle
 import pprint
+from scipy.optimize import minimize
 
 ###ちょっと特殊系
 from  psgr_find_pattern import *
