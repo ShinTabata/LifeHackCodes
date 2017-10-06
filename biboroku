@@ -2,6 +2,7 @@
 
 ###anacondaのアップデート
 conda update anaconda
+conda update --all
 
 ###jupyterノートブックの開き方
 jupyter notebook
