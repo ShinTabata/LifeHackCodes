@@ -26,6 +26,8 @@ from sqlalchemy import create_engine
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 from sklearn.linear_model import LogisticRegression
+from natto import MeCab
+##辞書系であるmecabはスクレイピング用。なんかめっちゃおもろい
 
 ###unixの基本コマンド
 http://macwiki.osdn.jp/wiki/index.php/UNIX%E3%81%AE%E5%9F%BA%E6%9C%AC%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89#find_.E2.80.A6.E3.83.95.E3.82.A1.E3.82.A4.E3.83.AB.E3.82.84.E3.83.87.E3.82.A3.E3.83.AC.E3.82.AF.E3.83.88.E3.83.AA.E3.82.92.E6.A4.9C.E7.B4.A2.E3.81.99.E3.82.8B
