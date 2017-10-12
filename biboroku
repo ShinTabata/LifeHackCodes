@@ -19,6 +19,7 @@ import os.path
 import pickle
 import pprint
 from scipy.optimize import minimize
+import glob
 
 ###ちょっと特殊系
 from  psgr_find_pattern import *
@@ -39,3 +40,8 @@ https://support.apple.com/ja-jp/HT201236
 
 ***python graph gallery　強い
 https://python-graph-gallery.com/?utm_content=buffer70533&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+
+***glob　の使い方
+http://ja.pymotw.com/2/glob/
+
+
